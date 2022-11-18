@@ -1,0 +1,282 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;*/
+
+/*cuerpo*/
+.body{
+    font-family:'Open Sans'
+
+}
+
+/*encabezados*/
+h1 h2 h3{
+    font-family:'Playfair Display';
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h2 h3{
+    font-size: 4rem;
+}
+
+/*HERO*/
+.hero{
+    border-radius: 10px;
+    width: 90%;
+	height: 25rem;
+	padding: 10px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    margin:auto;
+    }
+
+
+.tabla1{
+    margin:auto;
+    text-align: center;
+    justify-content: center;
+    background-color: #037bc0;
+    margin-bottom: 10px;
+
+}
+
+.tabla2{
+    margin:auto;
+    text-align: center;
+    justify-content: center;
+    background-color: #037bc0;
+    margin-bottom: 10px;
+
+
+}
+
+.tabla3{
+    margin:auto;
+    text-align: center;
+    justify-content: center;
+    background-color: #037bc0;
+
+}
+
+
+.tabla1 td a{
+    border-radius:solid 2px black;
+    padding:3px;
+    text-decoration: none;
+    background-color:#8cbc00;
+   
+}
+.tabla2 td a{
+    border-radius:solid 2px black;
+    padding:3px;
+    text-decoration: none;
+    background-color:#8cbc00;
+}
+
+.tabla3 td a{
+    border-radius:solid 2px black;
+    padding:3px;
+    text-decoration: none;
+    background-color:#8cbc00;
+}
+
+.navbar{
+    height: auto;
+    padding: 0;
+
+}
+
+/* imagenes de tablas */
+.tabla1 .img1{
+    margin:auto;
+    width:800px;
+    height: 400px;
+    background-image: url(img/producto1.jpg);
+    background-size: cover;
+
+}
+
+.tabla2 .img2{
+    margin:auto;
+    width:500px;
+    height: 400px;    
+    background-image: url(img/producto2.jpg);
+    background-size: cover;
+
+}
+.tabla2 .img3{
+    margin:auto;
+    width:500px;
+    height: 400px;  
+    background-image: url(img/producto3.jpg);
+    background-size: cover;
+
+}
+
+
+.tabla3 .img4{
+    margin:auto;
+    width:400px;
+    height: 500px;  
+    background-image: url(img/producto4.jpg);
+    background-size: cover;
+}
+
+.tabla3 .img5{
+    margin:auto;
+    width:400px;
+    height: 500px;  
+    background-image: url(img/producto5.jpg);
+    background-size: cover
+}
+
+.tabla3 .img6{
+    margin:auto;
+    width:400px;
+    height: 500px;  
+    background-image: url(img/producto6.jpg);
+    background-size: cover
+}
+
+
+.img1:hover{
+    transition:transform 1.5s;
+    transform:scale(1.2);
+
+}
+
+.img2:hover{
+    transition:transform 1.5s;
+    transform:scale(1.2);
+
+}
+
+.img3:hover{
+    transition:transform 1.5s;
+    transform:scale(1.2);
+
+}
+
+.img4:hover{
+    transition:transform 1.5s;
+    transform:scale(1.2);
+
+}
+
+.img5:hover{
+    transition:transform 1.5s;
+    transform:scale(1.2);
+
+}
+
+.img6:hover{
+    transition:transform 1.5s;
+    transform:scale(1.2);
+
+}
+
+/* categorias de productos */
+
+.categorias{
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content:space-around;
+    background-size: cover;
+    gap:10px;
+}
+
+    @media (max-widht:600px){
+
+        .categorias, .card, .cate{
+          display:flex;
+          flex-direction: column;
+        }
+        
+    }
+
+.card {
+	border-radius: 10px;
+    width: 300px;
+	height: 200px;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    }
+
+.cate{
+    text-decoration: none;
+    margin-left: 100px;
+    color:black;
+}
+
+
+/*footer*/
+
+.container{
+    display:grid;
+    place-items:center;
+    grid-template-areas: "tabla4 tabla5 tabla6";
+    text-align: center;
+    margin: 30px;
+    gap:10px;
+
+}
+
+    @media (max-width: 600px) {
+        .container{
+            display: flex;
+            flex-direction: column;
+            }
+    }
+
+
+.container ul li{
+    list-style: none;
+
+
+ }
+
+.container ul li a{
+    text-decoration: none;
+    color:grey;
+}
+
+.tabla4{
+    grid-template-areas: "tabla4";
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+	height: 200px;
+    
+   
+}
+
+
+.tabla5{
+    grid-template-areas: "tabla5";
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+	height: 200px;
+    
+    
+
+}
+
+.tabla6{
+    grid-template-areas: "tabla6";
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+	height: 200px;
+    
+    
+    
+}
+
